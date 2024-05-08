@@ -8,6 +8,8 @@
 <body>
 
     <script>
+
+         //1. Length //
         const students1 = ['sakshi','pooja','prachi']
         console.log(students1.length)
 
@@ -16,7 +18,7 @@
 
         const student = ["sakshi", 24, 74.10, true]
         console.log(student)
-
+        //2. push() and  pop() //
         const students = [
             "Sakshi",
             "Prachi",
@@ -29,6 +31,53 @@
         console.log('After push:',students)
         students.pop()
         console.log('After pop:',students)
+
+        //3. unshift() //
+       const colors= ["yellow", "pink", "black", "white"];
+       console.log(colors);
+       colors.unshift("blue");
+       console.log(colors);
+
+       //4. shift() //
+      const  marks= ["122", "343", "543", "345"];
+      console.log(marks);
+      marks.shift();
+      console.log(marks);
+
+      //5. indexOf( )//
+
+      const names = ["Shashikanr", "Anushka", "Aradhya", "Sahil"];
+      const index = names.indexOf("Anushka");
+      console.log(index);
+
+      //6. includes()//
+      const arrname = ["Shubham", "Sakshi", "Payal", "Radha"];
+
+      console.log(arrname.includes('Soham')); 
+      console.log(arrname.includes('Shubham'));
+
+
+      //7. splice() //
+       const studentname = ["Soham", "Sakshi", "Anuradha", "Prachi", "Sanika", "Tejal"];
+       console.log (studentname);
+       studentname.splice(1, 2, "Sagar", "Sahil");
+       console.log(studentname);
+
+       //8. join()//
+       const name = ["Anushka","Vaibhavi","Namrata","Sukanya","Sakshi","Pranjali"]
+       console.log(name.join("*"))
+
+       //9. reverse()//
+       const color = ["blue", "white", "yellow", "pink"];
+       color.reverse();
+       console.log(color);
+
+       //10. sort()//
+        const colorsort = ["Skyblue", "yellow", "Pink", "White"];
+        color.sort();
+        console.log(colorsort);
+
+
 
     </script>
     
